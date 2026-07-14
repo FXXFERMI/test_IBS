@@ -1,0 +1,67 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+nav, a{
+    text-decoration: none;
+    color:pink;
+    list-style: none;
+    
+
+}
+
+nav:hover, a:hover{
+    color:palevioletred;
+    background-color: antiquewhite;
+     list-style: none
+}
+
+section{
+    padding: 0.1rem;
+    margin: 1rem;
+}
+
+#about{
+    background-color: azure;
+}
+
+#hobbies{
+    background-color: lightblue;
+}
+
+#hobbies ul li{
+    font-style: italic;
+    border: 3em;
+    margin: 1em;
+    background-color: aliceblue;
+    border-color: black;
+}
+#contact{
+    background-color: aqua;
+
+}
+
+input{
+    margin: 1rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+label{
+
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+}
+
+h1, header{
+    text-align: center;
+    font-size: 4 rem;
+    color: chocolate;
+}
