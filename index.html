@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="styles.css">
-  <title>Suhani Paul</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhani Paul</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Suhani Paul</h1>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section id="about">
-      <h1> About Me </h1>
-      <p>Hi I am Suhani, I am third year Computer Science specialist at UTM. 
-        One interesting fact about me is that I want become a backend dev. 
-      </p>
-    </section>
+    <header>
+        <h1>Suhani Paul</h1>
 
-    <section id="hobbies">
-        <h1> My hobbies </h1>
-        <ul>
-          <li>I love to cook, especially hakka dishes</li>
-          <li>I love to rollerskate. Rolling skating at night is the most fun</li>
-          <li>I also love to play Badminton. It's super fun to play with someone competitive</li>
-        </ul>
-    </section>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="contact">
-        <h1> Contact </h1>
-        <footer> email me at: <a href="mailto:suhani.paul@mail.utoronto.ca">suhani.paul@mail.utoronto.ca</a>
-        or fill out the following form:
-        </footer><br>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" name="name" required><br>
-    
-            <label for="email">Email:</label>
-            <input type="email" name="email" required><br>
-    
-            <label for="message">Message:</label>
-            <textarea name="message" rows="5" ></textarea><br>
-    
-            <input type="submit" value="send">
-          </form>
-          
-      </section><br>
+    <main>
 
-  </main>
-  <footer>
-    © 2024 Suhani Paul. All rights reserved.
-  </footer>
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                Hi! I am Suhani. I am a third-year Computer Science Specialist
+                student at the University of Toronto Mississauga. One interesting
+                fact about me is that I want to become a backend developer.
+            </p>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+
+            <ul>
+                <li>I love cooking, especially Hakka dishes.</li>
+                <li>I enjoy roller skating, especially at night.</li>
+                <li>I love playing badminton with competitive friends.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>
+                Email me at
+                <a href="mailto:suhani.paul@mail.utoronto.ca">
+                    suhani.paul@mail.utoronto.ca
+                </a>
+                or fill out the form below.
+            </p>
+
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; 2024 Suhani Paul. All rights reserved.
+    </footer>
+
 </body>
 </html>
